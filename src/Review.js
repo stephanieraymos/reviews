@@ -4,7 +4,7 @@ import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 
 const Review = () => {
     const [index, setIndex] = useState(0);
-    console.log(people);
+    const {name, job, image, text } = people[index];
     
   return <h2>Review component</h2>;
 };
